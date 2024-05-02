@@ -7,7 +7,7 @@ import Meme1 from './assets/meme1.jpg'
 function MontlyList() {
 
   const [slideNum, setSlideNum] = useState(1)
-  const lists = 13
+  const lists = 14
 
   if (slideNum > lists) {
     setSlideNum(lists)
@@ -35,7 +35,7 @@ function MontlyList() {
         <div className='py-12 flex flex-col self-center max-w-screen-sm m-auto w-11/12'>
           <div className="carousel rounded-3xl m-auto w-11/12">
             <div id="" className="carousel-item relative w-full ">
-              <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/playlist/12474781063" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+              <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/playlist/12572222723" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
             </div>
           </div>
         </div>
@@ -85,6 +85,9 @@ function MontlyList() {
           </div>
           <div id="slide13" className="carousel-item relative w-full">
             <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/playlist/12433849743" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+          </div>
+          <div id="slide14" className="carousel-item relative w-full">
+            <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/playlist/12474781063" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
           </div>
         </div>
         <div className="join grid grid-cols-2 w-3/5 m-auto py-6">

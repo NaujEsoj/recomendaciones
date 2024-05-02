@@ -15,7 +15,7 @@ function Home() {
 
   const handleProgress = () => {
     if (progress < 100) {
-      setProgress(prevState => prevState + 20)
+      setProgress(prevState => prevState + 5)
     }
   }
 

@@ -5,6 +5,7 @@ import NightShift from './assets/books/61B9RtPYyL.jpg'
 import Housemade from './assets/books/60556912.jpg'
 import letROneIn from './assets/books/943402.jpg'
 import HiddenPictures from './assets/books/10001000QL80.jpg'
+import BajoEstrella from './assets/books/The_Fault_in_Our_Stars.jpg'
 
 import Down from './assets/down.png'
 
@@ -17,10 +18,10 @@ function Books() {
       <div className='w-11/12 md:w-3/4 m-auto '>
       <h1 className='text-2xl bold text-center my-12 bg-zinc-400 rounded-lg p-4'>Leyendo / Escuchando:</h1>
         <div className="card lg:card-side bg-slate-800 shadow-xl">
-          <figure><img className='md:w-2/4' src={NightShift} alt="Album"/></figure>
+          <figure><img className='md:w-2/4' src={BajoEstrella} alt="Album"/></figure>
           <div className="card-body">
-            <h2 className="card-title">En el umbral de la noche</h2>
-            <p className='italic'>Stephen King</p>
+            <h2 className="card-title">Bajo La Misma Estrella</h2>
+            <p className='italic'>Jhon Green</p>
             <p className='m-4'>comentarios pendientes</p>
           </div>
         </div>
@@ -28,6 +29,24 @@ function Books() {
         Leidos / Escuchados:
       </h1>
         <div className="card lg:card-side bg-slate-800 shadow-xl">
+          <figure><img className='md:w-2/4' src={NightShift} alt="Album"/></figure>
+          <div className="card-body">
+            <h2 className="card-title">En el umbral de la noche</h2>
+            <p className='italic'>Stephen King</p>
+            <div className="collapse bg-slate-600 md:bg-slate-800 md:collapse-open">
+              <input type="checkbox" className="peer md:hidden" />
+              <div className="collapse-title flex md:hidden md:invisible">
+                <p>Ver comentarios</p>
+                <img className='w-3 h-3 mt-2' src={Down} alt="flecha mostrar mas" />
+              </div>
+              <div className="collapse-content ">
+              <p className='m-4'>King es el mejor, pero al ser cuentos cortos, uno empieza a meterse en la trama, empieza a tener expectativas, ansiedad por saber más y ZAZ, se terminó...</p>
+              <p className='m-4'>El suave y directo contacto con lo que él llama el miedo profundo, el morbo por lo oscuro, the call of the void, el fuego fatuo. Habría disfrutado mucho estas historias más desarrolladas, más largas. Mi favorita es la de los soldaditos, que maestro King... algo tan simple y él lo lleva a intrínsecas situaciones. Un deleite este libro.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card lg:card-side bg-slate-800 shadow-xl my-8">
           <figure><img className='md:w-2/4' src={Housemade} alt="Album"/></figure>
           <div className="card-body">
             <h2 className="card-title">La Asistenta</h2>

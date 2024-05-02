@@ -11,6 +11,8 @@ import Lobster from './assets/movies/lobster.jpeg'
 import LobsterMin from './assets/movies/Langosta.jpg'
 import PoorThings from './assets/movies/multimedia.normal.webp'
 import PoorThingsMin from './assets/movies/images.jpg'
+import theGardenMin from './assets/movies/the-garden.png'
+import theGarden from './assets/movies/the-gardenb.jpg'
 
 
 function Movies() {
@@ -21,6 +23,31 @@ function Movies() {
 
       <div className='w-11/12 md:w-3/4 m-auto '>
         <h1 className='text-3xl bold text-center my-12 bg-zinc-400 rounded-lg p-4'>Hoy en "Que he visto recientemente:"</h1>
+        <div className="card w-11/12 m-auto bg-base-100 shadow-xl image-full p-4">
+          <figure><img src={theGarden} alt="The Garden" /></figure>
+          <div className="card-body flex-col">
+            <h2 className="card-title text-2xl max-h-fit">The Garden</h2>
+            <p></p>
+            <div className='flex flex-col md:flex-row'>
+              <img className='md:w-1/4 h-fit mt-4' src={theGardenMin} alt="The Garden Film" />
+              <div className="collapse bg-slate-600 md:bg-transparent md:collapse-open rounded-none">
+                <input type="checkbox" className="peer md:hidden" />
+                <div className="collapse-title flex md:hidden md:invisible">
+                  <p>Ver comentarios</p>
+                  <img className='w-3 h-3 mt-2' src={Down} alt="flecha mostrar mas" />
+                </div>
+                <div className="collapse-content md:text-xl">
+                  <p>
+                    Que putas pasa en ese jardin?
+                  </p>
+                  <p>
+                  Es un short, inicia lento, pero el último minuto es el que deja entender lo que puede pasar en el jardín. Nada tiene sentido, aun cuando te lo explican sigues sin entender muchas cosas, no es una crítica, ya la vez lo es, hay personajes que no entiendes su rol, todo es raro, pero al final cuando lo entiendes, o cuando te lo explican (como me pasó a mi) uno dice, aaaahhhhhhh... ta buena esa vaina. esta en YouTube, míralo <a href="https://www.youtube.com/watch?v=YSwlIVha3yU" target='blank'>AQUI</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="card w-11/12 m-auto bg-base-100 shadow-xl image-full p-4">
           <figure><img src={PoorThings} alt="Poor Things" /></figure>
           <div className="card-body flex-col">
