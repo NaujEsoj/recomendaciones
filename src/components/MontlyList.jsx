@@ -9,6 +9,8 @@ function MontlyList() {
   const [slideNum, setSlideNum] = useState(1)
   const lists = 14
 
+  window.scrollTo(0, 0);
+
   if (slideNum > lists) {
     setSlideNum(lists)
   } else if (slideNum < 1) {

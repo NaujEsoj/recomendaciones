@@ -17,6 +17,8 @@ import theGarden from './assets/movies/the-gardenb.jpg'
 
 function Movies() {
 
+  window.scrollTo(0, 0);
+
   return (
     <>
       <Navbar />

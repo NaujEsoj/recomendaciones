@@ -11,6 +11,9 @@ import Down from './assets/down.png'
 
 
 function Books() {
+
+  window.scrollTo(0, 0);
+
   return (
     <div>
       <Navbar />
